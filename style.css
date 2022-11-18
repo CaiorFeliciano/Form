@@ -1,0 +1,86 @@
+body {
+  background-image: url(./img/img/waves.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: Noto Serif Display;
+  font-weight: 100;
+  margin-left: 30%;
+  margin-top: 2%;
+  justify-content: center;
+  color: #dee2e6;
+  text-shadow: 2px 2px 0px #343a40;
+
+}
+main {
+  background: rgba(73, 80, 87, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(73, 80, 87, 1);
+  margin-right: 36%;
+  padding: 15px;
+}
+.title {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 0px #343a40;
+  margin-bottom: 15px;
+  font-weight: 100;
+
+}
+.subtitle {
+  font-size: 30px;
+}
+.first-name, .last-name, .email {
+  margin-bottom: 3px;
+}
+
+input, select, textarea, button {
+  border-radius: 5px;
+}
+.field {
+  margin-bottom: 1em;
+}
+.field label {
+  margin-bottom: 0.2em;
+}
+fieldset.group .field {
+  float: left;
+  margin-right: 1em;
+}
+.field input[type="text"], .field input[type="email"], .field select, .field textarea {
+  padding: 0.2em;
+  border: 1px solid #dee2e6;
+  box-shadow: 2px 2px 2px #343a40;
+  display: block;
+  margin-top: 5px;
+}
+.field select option {
+  padding-right: 1em;
+}
+.field input:focus, .field select:focus, .field textarea:focus {
+  background: #dee2e6;
+}
+button {
+  font-size: 1.2em;
+  border: 0;
+  margin-bottom: 1em;
+  color: #343a40;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px #343a40;
+}
+button:hover {
+  background: #adb5bd;
+  box-shadow: 2px 2px 2px #343a40;
+}
+.field-box {
+  display:inline-flex;
+}
+.message {
+  font-family: Noto Serif Display;
+}
+.develop {
+  text-align: center;
+}
